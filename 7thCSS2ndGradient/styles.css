@@ -1,0 +1,52 @@
+.box{
+    border: 1px solid black;
+    height: 220px;
+    width: 150px;
+    background-image: linear-gradient(red,blue);
+    background-image: linear-gradient(to right,red,blue); 
+    /* background-image: linear-gradient(to left,red,blue);  */
+    /* background-image: linear-gradient(to button,red,blue); */
+    background-image: linear-gradient(to button right,rgb(72, 255, 0),blue);
+    background-image: linear-gradient(to bottom right,rgb(200, 124, 97),blue,rgb(8, 231, 8));
+    background-image: linear-gradient(45deg,red,blue); 
+    background-image: linear-gradient(orange,white,green);
+    /*Transparency  */
+    background-image: linear-gradient(to bootom rgba(255,0,0,0,),rgba(0,0,255));;
+}
+
+/* Radial Gradients */
+.mydiv{
+    border: 1px solid black;
+    margin: 10px;
+    height: 200px;
+    width: 300px;
+    background-image: radial-gradient(circle,red,blue,orange);
+} 
+
+#pappu{
+    border: 1px solid black;
+    margin:10px;
+    height: 200px;
+    width: 300px;
+    background-image:radial-gradient(yellow 15%,orange 30%,red 80%);
+}
+#grad1{  
+        height: 200px;
+        width: 200px;
+        background-image: conic-gradient(red, yellow, green, blue, black);
+}
+.grad2{
+    height: 200px;
+    width:200px;
+    background-color: red;
+    background-image: conic-gradient(red, yellow,green,blue);
+    border-radius: 10%;
+}
+
+.grad3{
+    height: 200px;
+    width:200px;
+    background-color: red;
+    background-image: conic-gradient(red, yellow,green,blue);
+    border-radius: 50%;
+}
